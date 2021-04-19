@@ -127,7 +127,7 @@ export default {
   },
 methods: {
     say: function (message) {
-      alert(message)
+      alert(message);
     }
   }
 
