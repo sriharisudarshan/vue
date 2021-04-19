@@ -124,7 +124,7 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  }
+  },
   methods: {
   alertfn(){alert("sensors values are successfully stored in Database")}
   }
