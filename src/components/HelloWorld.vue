@@ -127,10 +127,10 @@ export default {
   },
 methods: {
     say: function (message) {
-      alert(message);
+      alert(message)
     }
   }
-
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
