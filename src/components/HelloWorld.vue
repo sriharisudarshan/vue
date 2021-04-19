@@ -108,7 +108,7 @@ Enter the live sensors data to know which part of the pump is malfunctioning.
   <input type="text" id="s49" name="s49"><br><br>
     <label for="fname">SENSOR 50:</label>
   <input type="text" id="s50" name="s50"><br><br>
-  <input @click="alertfn" type="submit" value="Submit">
+  <input onclick="alertfn" type="submit" value="Submit">
   
   
 </form>
