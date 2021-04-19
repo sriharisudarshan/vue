@@ -108,7 +108,7 @@ Enter the live sensors data to know which part of the pump is malfunctioning.
   <input type="text" id="s49" name="s49"><br><br>
     <label for="fname">SENSOR 50:</label>
   <input type="text" id="s50" name="s50"><br><br>
-  <input onclick="alertfn" type="submit" value="Submit">
+  <button v-on:click="say('ALL THE VALUES SENT TO DATABASE SUCCESSFULLY')">Submit</button>
   
   
 </form>
@@ -125,10 +125,11 @@ export default {
   props: {
     msg: String
   },
-  methods: {
-  alertfn(){alert("sensors values are successfully stored in Database")}
+methods: {
+    say: function (message) {
+      alert(message)
+    }
   }
-}
 
 </script>
 
