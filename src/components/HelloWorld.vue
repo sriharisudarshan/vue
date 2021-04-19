@@ -121,13 +121,10 @@ Enter the live sensors data to know which part of the pump is malfunctioning.
 
 <script>
 export default {
-data{
-   
   name: 'HelloWorld',
   props: {
     msg: String
   }
-  },
   methods: {
   alertfn(){alert("sensors values are successfully stored in Database")}
   }
