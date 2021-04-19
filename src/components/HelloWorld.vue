@@ -108,7 +108,7 @@ Enter the live sensors data to know which part of the pump is malfunctioning.
   <input type="text" id="s49" name="s49"><br><br>
     <label for="fname">SENSOR 50:</label>
   <input type="text" id="s50" name="s50"><br><br>
-  <input type="submit" value="Submit">
+  <input @click="alertfn" type="submit" value="Submit">
   
   
 </form>
@@ -121,11 +121,18 @@ Enter the live sensors data to know which part of the pump is malfunctioning.
 
 <script>
 export default {
+data{
+   
   name: 'HelloWorld',
   props: {
     msg: String
   }
+  },
+  methods: {
+  alertfn(){alert("sensors values are successfully stored in Database")}
+  }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
