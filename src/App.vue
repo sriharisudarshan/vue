@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/triplet img.jpg">
+    <img alt="Vue logo" src="./assets/img.jfif">
     <HelloWorld msg="Welcome to Digital triplet"/>
   </div>
 </template>
