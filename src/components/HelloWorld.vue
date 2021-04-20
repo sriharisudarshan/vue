@@ -8,7 +8,7 @@ Enter the live sensors data to know which part of the pump is malfunctioning.
 
 <h1>The input element</h1>
 
-<form action="/action_page.php">
+<form>
   <label for="fname">SENSOR 1:</label>
   <input type="text" id="S1" name="S1"><br><br>
   <label for="lname">SENSOR 2:</label>
